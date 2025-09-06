@@ -1,14 +1,15 @@
 {
-  "name": "my-app",
+  "name": "test-nextjs-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "bignumber.js": "^9.3.1",
+    "bignumber.js": "link:../bignumber.js",
     "decimal.js": "^10.6.0",
     "next": "15.5.2",
     "react": "19.1.0",
